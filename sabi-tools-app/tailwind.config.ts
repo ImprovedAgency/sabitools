@@ -15,8 +15,8 @@ const config: Config = {
         "sabi-gray": "#e5e7eb",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        display: ["Montserrat", "sans-serif"],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-montserrat)', 'sans-serif'],
       },
       transformOrigin: {
         "0": "0%",
